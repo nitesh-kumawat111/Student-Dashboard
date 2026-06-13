@@ -1,3 +1,30 @@
+A modern and responsive Student Dashboard built using Next.js, Tailwind CSS, and Framer Motion, designed to provide an interactive and visually engaging learning experience.
+
+🚀 Features
+🎯 Bento Grid Layout for clean and structured UI
+🎬 Smooth Animations using Framer Motion (staggered card loading, hover effects)
+📊 Dynamic Course Cards with progress tracking
+🔥 Activity & Daily Streak Sections for user engagement
+📱 Fully Responsive Design (Desktop, Tablet, Mobile)
+📂 Supabase Integration for real-time data fetching
+⚡ Optimized with Next.js App Router (RSC)
+
+🛠️ Tech Stack
+Next.js (App Router)
+React + TypeScript
+Tailwind CSS
+Framer Motion
+Supabase (Database)
+
+Lucide Icons
+🎨 UI Highlights
+Gradient-based modern design
+Interactive hover effects with smooth transitions
+Skeleton loading states for better UX
+Collapsible responsive sidebar
+
+While building this project, I faced a challenge integrating Framer Motion with Next.js Server Components, as animations cannot run directly inside page.tsx. To solve this, I followed a proper architecture by creating separate Client Components specifically for handling animations. This approach allowed me to keep data fetching in Server Components while managing smooth UI animations in Client Components, resulting in a clean and scalable implementation.  
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
