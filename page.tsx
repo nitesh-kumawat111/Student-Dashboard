@@ -19,7 +19,7 @@ export default async function Home() {
   // RSC fetching
 
   const { data: courses, error } = await supabase
-    .from("courses table")
+    .from("courses_table")
     .select("*")
 
   if (error) {
